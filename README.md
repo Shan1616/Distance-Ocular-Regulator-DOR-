@@ -109,7 +109,6 @@ DOR/
 ├── privacy.py        # Privacy model documentation
 ├── winsound.py       # Linux mock for winsound
 ├── build.py          # PyInstaller build script
-├── GEMINI.md         # Architecture decisions & conventions
 ├── requirements.txt
 └── .gitignore
 ```
