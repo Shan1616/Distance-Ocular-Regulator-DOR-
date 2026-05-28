@@ -2,6 +2,16 @@
 
 Monitor your eye health in real time using just your webcam. DOR tracks **eye-to-screen distance** and **blink rate**, and gently nudges you when you're too close or not blinking enough — all without saving any images.
 
+### Setup & Calibration
+![DOR Setup](Screenshot%202026-05-28%20134405.png)
+
+### Real-Time Monitoring
+![DOR Monitor](Screenshot%202026-05-28%20134502.png)
+
+### Session Summary
+![DOR Session Summary](Screenshot%202026-05-28%20134547.png)
+
+---
 ## Features
 
 - **Distance Tracking** — Triangle Similarity via MediaPipe iris landmarks, accurate to ±5 cm
