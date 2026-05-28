@@ -28,7 +28,7 @@ PyInstaller.__main__.run([
     "--hidden-import=mediapipe",      # Forces MediaPipe dependencies to load
     "--collect-data=mediapipe",       # Forces MediaPipe internal models to package
     f"--distpath={str(DIST)}",
-    "--icon=eye.ico",                 # Uses your new custom icon
+    "--icon=eye_185923.ico",                 # Uses your new custom icon
 ])
 
 # Dynamically set the extension for the success message
