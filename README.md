@@ -41,8 +41,8 @@ Monitor your eye health in real time using just your webcam. DOR tracks **eye-to
 
 ```powershell
 # 1. Clone the repo
-git clone <url>
-cd DOR
+git clone https://github.com/Shan1616/Distance-Ocular-Regulator-DOR-
+cd Distance-Ocular-Regulator-DOR-
 
 # 2. Create and activate virtual environment
 python -m venv venv
@@ -61,8 +61,8 @@ python main.py
 
 ```bash
 # 1. Clone the repo
-git clone <url>
-cd DOR
+git clone https://github.com/Shan1616/Distance-Ocular-Regulator-DOR-
+cd Distance-Ocular-Regulator-DOR-
 
 # 2. Create and activate virtual environment
 python3 -m venv venv
