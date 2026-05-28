@@ -27,8 +27,16 @@ from blink import compute_ear, BlinkTracker
 from dashboard import Dashboard, SessionSummaryDialog, dor_icon
 from friction import FrictionOverlay, STAGE1_DELAY_SEC
 from focus import FocusScore, SessionTracker
-
-MODEL_PATH = str(Path(__file__).parent / "face_landmarker.task")
+# --- PyInstaller Resource Path Helper ---
+def get_resource_path(relative_path):
+    """Get absolute path to resource, works for dev and for PyInstaller onefile."""
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except AttributeError:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
+MODEL_PATH = get_resource_path("face_landmarker.task")
 LIGHT_THRESHOLD = 40       # avg pixel brightness below this → low light warning
 LIGHT_CONSEC_FRAMES = 15   # consecutive low-light frames before warning
 BREAK_20_CYCLE_MIN = 20    # 20-20-20 rule interval
