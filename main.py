@@ -4,6 +4,7 @@ Module: main.py
 Privacy: Zero-I/O. No image data is written to disk or network at any point.
 """
 import sys
+import os
 import time
 import traceback
 from pathlib import Path
